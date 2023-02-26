@@ -44,7 +44,7 @@
     height: 25vh;
     position: absolute;
     right: 1.5%;
-    top: 7%;
+    top: 8%;
     background: #f8eac400;
     border: 2px solid #2F1F00;
     border-radius: 11px;
@@ -63,4 +63,67 @@
 .logo:hover{
     height: 35px;
     width: 35px;
+}
+
+.mobile{
+    display: none;
+}
+
+.padding-top-7vh{
+    padding-top: 7vh;
+}
+
+@media only screen and (max-width: 684px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        color: #2F1F00;
+    }
+    .menu__icon_mobile{
+        transform: scale(1.5);
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        top: 3vh;
+        left: 4vw;
+    }
+    .menu_navegacao_mobile{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menu__nome{
+        font-size: 6vh;
+        padding-bottom: 8vh;
+        padding-top: 2vh;
+    }
+    .menu__central{
+        flex-direction: column;
+        font-size: 3vh;
+    }
+
+    .menu__lateral_mobile{
+        width: 100vw;
+        display: flex;
+        position: absolute;
+        top: 93vh;
+        justify-content: space-around;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .logo:hover{
+        height: 40px;
+        width: 40px;
+    }
+
 }

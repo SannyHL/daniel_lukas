@@ -4,3 +4,9 @@ body{
     background: rgba(250, 189, 59, 0.062);
     height: 93vh;
 }
+@media only screen and (max-width: 684px) {
+    body{
+       padding: 0px;
+        height: 100vh;
+    }
+}
