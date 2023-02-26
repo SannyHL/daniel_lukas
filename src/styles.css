@@ -36,4 +36,31 @@
 .menu__icon{
     transform: scale(1.5);
     cursor: pointer;
+    z-index: 2;
+}
+
+.menu__lateral{
+    width: 6vw;
+    height: 25vh;
+    position: absolute;
+    right: 1.5%;
+    top: 7%;
+    background: #f8eac400;
+    border: 2px solid #2F1F00;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.logo:hover{
+    height: 35px;
+    width: 35px;
 }

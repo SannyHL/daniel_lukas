@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-navegacao.component.css']
 })
 export class MenuNavegacaoComponent {
+  menuAberto:boolean = false;
 
+  abrirMenu(){
+    if(this.menuAberto){
+      this.menuAberto = false;
+    } else{
+      this.menuAberto = true;
+    }
+    return this.menuAberto;
+  }
 }

@@ -17,7 +17,18 @@
                 <h3 [routerLink]="['/biblioteca']">Biblioteca</h3>
                 <h3 [routerLink]="['/musicas']">Musicas</h3>
             </div>
-            <mat-icon class="menu__icon">menu</mat-icon>
+            <mat-icon class="menu__icon" (click)="abrirMenu()">menu</mat-icon>
+        </nav>
+        <nav *ngIf="menuAberto" class="menu__lateral">
+            <a href="https://www.instagram.com/odaniellukasoficial/">
+                <img src="../../assets/imagens/instagram-icon.svg" alt="instagram" class="logo">
+            </a>
+            <a href="">
+                <img src="../../assets/imagens/whatsapp-icon.svg" alt="whatsapp" class="logo">
+            </a>
+            <a href="https://www.youtube.com/@Odaniellukasoficial">
+                <img src="../../assets/imagens/youtube-icon.svg" alt="youtube" class="logo">
+            </a>
         </nav>
     </header>
 </body>
