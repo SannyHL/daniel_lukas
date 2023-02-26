@@ -10,7 +10,7 @@
     <header>
         <div class="desktop">
             <nav class="menu_navegacao">
-                <h3 class="menu__nome" [routerLink]="['']">Daniel Lukas</h3>
+                <img class="menu__nome" [routerLink]="['']" src="../../assets/imagens/Daniel Lukas.svg">
                 <div class="menu__central">
                     <h3 [routerLink]="['/biografia']">Biografia</h3>
                     <h3 [routerLink]="['/agenda']">Agenda</h3>
@@ -35,7 +35,7 @@
         <div class="mobile">
             <mat-icon class="menu__icon_mobile" (click)="abrirMenu()">menu</mat-icon>
             <nav class="menu_navegacao_mobile">
-                <h3 class="menu__nome" [routerLink]="['']">Daniel Lukas</h3>
+                <img class="menu__nome" [routerLink]="['']" src="../../assets/imagens/Daniel Lukas.svg">
                 <div class="menu__central" *ngIf="menuAberto">
                     <h3 [routerLink]="['/biografia']" class="padding-top-7vh">Biografia</h3>
                     <h3 [routerLink]="['/agenda']" class="padding-top-7vh">Agenda</h3>

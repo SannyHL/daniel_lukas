@@ -18,18 +18,12 @@
     width: 45vw;
     display: flex;
     justify-content: space-around;
-    font-family: 'Modern Antiqua', cursive;
-    font-style: normal;
-    font-weight: 300;
     font-size: 2vh;
     cursor: pointer;
 }
 
 .menu__nome{
-    font-family: 'Licorice', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6vh;
+    height: 6vh;
     cursor: pointer;
 }
 
@@ -73,6 +67,14 @@
     padding-top: 7vh;
 }
 
+.mat-h3, .mat-subtitle-1, .mat-typography .mat-h3, .mat-typography .mat-subtitle-1, .mat-typography h3{
+    font-family: 'Modern Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+    color: #2F1F00;
+}
+
 @media only screen and (max-width: 684px) {
     .desktop{
         display: none;
@@ -100,20 +102,29 @@
         text-align: center;
     }
     .menu__nome{
-        font-size: 6vh;
+        height: 5vh;
         padding-bottom: 8vh;
         padding-top: 2vh;
+        cursor: pointer;
     }
     .menu__central{
         flex-direction: column;
-        font-size: 3vh;
+        font-size: 50px !important;
+    }
+
+    .mat-h3, .mat-subtitle-1, .mat-typography .mat-h3, .mat-typography .mat-subtitle-1, .mat-typography h3{
+        font-family: 'Modern Antiqua';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vh;
+        color: #2F1F00;
     }
 
     .menu__lateral_mobile{
         width: 100vw;
         display: flex;
         position: absolute;
-        top: 93vh;
+        top: 88vh;
         justify-content: space-around;
     }
     .logo{
