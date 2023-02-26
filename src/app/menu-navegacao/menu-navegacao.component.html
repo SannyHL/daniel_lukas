@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu_navegacao">
+            <h3 class="menu__nome" [routerLink]="['']">Daniel Lukas</h3>
+            <div class="menu__central">
+                <h3 [routerLink]="['/biografia']">Biografia</h3>
+                <h3 [routerLink]="['/agenda']">Agenda</h3>
+                <h3 [routerLink]="['/contatos']">Contato</h3>
+                <h3 [routerLink]="['/biblioteca']">Biblioteca</h3>
+                <h3 [routerLink]="['/musicas']">Musicas</h3>
+            </div>
+            <mat-icon class="menu__icon">menu</mat-icon>
+        </nav>
+    </header>
+</body>
+</html>
