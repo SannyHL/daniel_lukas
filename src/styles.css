@@ -124,7 +124,7 @@
         width: 100vw;
         display: flex;
         position: absolute;
-        top: 88vh;
+        top: 84vh;
         justify-content: space-around;
     }
     .logo{
